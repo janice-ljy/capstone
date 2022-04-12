@@ -1,0 +1,76 @@
+variable_name,data_type,explanation
+adult_beds,dbl,total number of adult beds
+adult_covid,dbl,total number of adult beds with COVID patients
+adult_covid_icu,dbl,number of adult ICU beds with COVID patients
+avg,dbl,seven day average deaths
+case_avg,dbl,the average number of cases
+case_avg_rate,dbl,seven days average cases
+case_fatality_rate,dbl,case fatality rate (% of cases resulting in death)
+case_rate,dbl,per capita rate of cumulative cases
+cases,dbl,the number of cases
+cases_est,dbl,estimate of cases
+cases_pct,dbl,the number of confimed cases per capita
+completed,int,the number of people who complete the vaccine
+completed_rate,dbl,per capita rate of people completing vaccination
+count,dbl,the number of count
+county,chr,county name
+covid_per_cap,dbl,per capita number of COVID beds (staffed beds)
+date,dbl,the date of the record
+day,int,the number of days from 2020-03-20 to 2020-06-03
+deaths,int,the number of deaths
+deaths_avg,dbl,the average number of deaths
+deaths_avg_rate,dbl,seven day average of mortality per capita (staffed beds)
+deaths_est,dbl,estimate of mortality
+deaths_pct,dbl,the number of deaths per capita
+discharge,int,total number of discharged patients
+district,chr,"A, B, C, D, E, F, G, H, I"
+factor_var,chr,ignore
+full_name,chr,"city name, state and region (metro area)"
+geoid,dbl,geo id
+icu,int,total number of COVID ICU patients
+icu_avg,dbl,seven day average of COVID ICU patients
+in_pt,int,total number of COVID in-patients
+in_pt_avg,dbl,seven day average of COVID in-patients
+initiated,int,the number of people who get the first dose vaccine
+initiated_rate,dbl,per capita rate of people getting first dose vaccine
+jurisdiction,chr,county or city name
+last7,int,the number of people who get vaccines for last 7 days
+last7_rate,dbl,per capita rate of vaccinations administered in last seven days
+mortality_rate,dbl,per capita rate of cumulative deaths
+new_cases,dbl,the number of new cases
+new_deaths,int,the number of new deaths
+new_discharge,int,number of new discharges
+new_in_pt,int,number of new in-patients
+new_in_pt_avg,dbl,seven day average of the number of new patients
+new_test_rate,dbl,the rate of new test
+new_test_rate_avg,dbl,the average rate of new test
+new_tests,dbl,the numebr of new tests
+occupied_beds,dbl,total number of occupied hospital beds
+occupied_icu_beds,dbl,total number of occupied ICU beds
+pcr_avg,dbl,seven day average of pcr tests administered
+pcr_int,int,indeterminant tests
+pcr_neg,int,negative pcr tests
+pcr_pos,int,positive pcr tests
+pcr_total,int,total number of pcr tests administered
+pct_positive,dbl,positive pct
+pediatric_covid,dbl,total number of pediatric beds
+positive_avg,dbl,the average number of positive test
+region,chr,metropolitan
+report_date,chr,the date of the report (yyyy-mm-dd)
+sex,chr,"Female, Male"
+short_name,chr,city name
+staffed_beds,dbl,total number of staffed hospital beds
+staffed_icu_beds,dbl,total number of staffed ICU beds
+state,chr,state name
+test_rate,dbl,the test rate
+tests,dbl,the number of tests
+total_pop,int,total number of population
+vaccinations,int,the number of vaccine
+value,chr,category
+value,chr,different races
+value,chr,"initiated, completed"
+vent,int,total number of COVID patients on ventilators
+vent_avg,dbl,seven day average of COVID patients on ventilators
+zip,dbl,zip code
+,,
+,,
